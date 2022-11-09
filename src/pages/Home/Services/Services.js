@@ -18,7 +18,7 @@ const Services = () => {
                 <p className='text-gray-500 w-1/2 m-auto'>the majority have suffered alteration in some form, by injected humour,  or randomised <br /> words which don't look even slightly believable. </p>
             </div>
 
-            <div className='grid grid-cols-1 text-center md:grid-cols-2 lg:grid-cols-3 gap-5 my-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4 mx-10'>
                
                 {
                     services.map(service => <Servicescard 
@@ -27,7 +27,7 @@ const Services = () => {
                     ></Servicescard>)
                 }
             </div>
-           <div className='text-center my-4 '>
+           <div className='text-center my-6 '>
             <Link to= '/'><button className="bg-orange-500 py-2 px-3 rounded font-bold text-white">More services</button></Link>
            </div>
        </div>

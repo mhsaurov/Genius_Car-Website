@@ -7,7 +7,7 @@ const Servicescard = ({service}) => {
     return (
         <div>
             <div>
-            <div className="card card-compact w-96 borders ">
+            <div className="card card-compact w-96 h-96 borders ">
             <img className='p-5 C-rounded' src= {img} alt="services" />
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
@@ -18,6 +18,7 @@ const Servicescard = ({service}) => {
             </div>
             </div>
             </div>
+          
         </div>
         
     );

@@ -39,7 +39,7 @@ const Header = () => {
       </li>
       <li><HashLink to= '#services'>Services</HashLink></li>
       <li><Link to= '/blog'>Blog</Link></li>
-      <li><Link to= '/contact'>Contact</Link></li>
+      <li><HashLink to= '#contact'>Contact</HashLink></li>
     </ul>
   </div>
   <div className="navbar-end">
